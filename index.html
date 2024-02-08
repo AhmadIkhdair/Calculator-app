@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <!--CSS & JS-->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="calculator ">
+    <div class="head">
+      <p>calc</p>
+      <div class="theme">
+        <p>THEME</p>
+        <form action="" id="searchTypeToggle">
+          <div>1</div>
+            <label id="theme1">
+              <input type="radio" name="searchtype" data-location="0" value="one">
+            </label>
+            <label id="theme2">
+              <input type="radio" name="searchtype" data-location="calc(100% + 5px)" value="two">
+            </label>
+            <label id="theme3">
+              <input type="radio" name="searchtype" data-location="calc(200% + 12.5px)" value="three">
+            </label>
+        </form>
+      </div>
+    </div>
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    <div class="calculator-grid ">
+      <button data-number class="digit">7</button>
+      <button data-number class="digit">8</button>
+      <button data-number class="digit">9</button>
+      <button data-delete class="digit delete">DEL</button>
+      <button data-number class="digit">4</button>
+      <button data-number class="digit">5</button>
+      <button data-number class="digit">6</button>
+      <button data-operation class="digit">+</button>
+      <button data-number class="digit">1</button>
+      <button data-number class="digit">2</button>
+      <button data-number class="digit">3</button>
+      <button data-operation class="digit">-</button>
+      <button data-number class="digit">.</button>
+      <button data-number class="digit">0</button>
+      <button data-operation class="digit">/</button>
+      <button data-operation class="digit">x</button>
+      <button data-reset class="span-two reset">RESET</button>
+      <button data-equals class="span-two equal">=</button>
+    </div>
+  </div>
+</body>
+</html>
