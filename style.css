@@ -140,7 +140,9 @@ form {
 }  
 
   form label input {
-    display: none;
+    position:absolute;
+    top:-200%;
+    visibility: hidden;
 } 
 
 /* Output screen  */
