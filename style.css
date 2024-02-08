@@ -140,8 +140,7 @@ form {
 }  
 
   form label input {
-    position:absolute;
-    top:-200%;
+    display: none;
 } 
 
 /* Output screen  */
